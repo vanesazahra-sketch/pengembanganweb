@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caca Aetos Travel</title>
+<!--Favicon-->
+<link rel="icon" href="images/Logo Caca Aetos Travel.PNG" type="image/x-icon">
+<!-- Hubungkan HTML dengan CSS -->
+<link rel="stylesheet" href="uts.css">
+</head>
+<body>
+  
+<h2>Formulir Pendaftaran</h2>
+<form action="#" onsubmit="alert('Pendaftaran terkirim. Kami akan menghubungimu lewat WhatsApp.'); return false;">
+  <label for="nama">Nama lengkap</label>
+  <input type="text" id="nama" required>
+  <label for="email">Email</label>
+  <input type="email" id="email" required>
+  <label for="hp">Nomor WhatsApp</label>
+  <input type="text" id="hp" required>
+  <label for="paket">Pilihan paket</label>
+  <select id="paket">
+    <option>Labuan Bajo</option>
+    <option>Bromo dan Malang</option>
+    <option>Yogyakarta</option>
+    <option>Bali</option>
+  </select>
+  <label for="tgl">Tanggal berangkat</label>
+  <input type="date" id="tgl" required>
+  <label for="jml">Jumlah peserta</label>
+  <input type="number" id="jml" min="1" value="1">
+  <label for="cat">Catatan</label>
+  <textarea id="cat" rows="4"></textarea>
+  <input type="submit" value="Kirim Pendaftaran">
+</form>
